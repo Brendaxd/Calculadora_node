@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculadora</title>
+	<link rel="stylesheet" type="text/css" href="estilocalculadora.css">
+	<script type="text/javascript" src="clasecalculadora.js"></script>
+</head>
+<body>
+	<div class="marco">
+		<div id="pantalla">
+			<input type="text" name="pantalla" value="0" id="caja">
+		</div>
+
+		<div id="botones">
+			<table id="calcu">
+				<tr>
+					<td><input type="button" name="botonborrar" class="especiales" value="AC" onclick="vaciar()"></td>
+					<td><input type="button" name="botonx1" class="especiales" value="+/-"></td>
+					<td><input type="button" name="botonx2" class="especiales" value="%"></td>
+					<td><input type="button" name="botondividir" class="operaciones" value="/" onclick="operacion('/')"></td>
+				</tr>
+
+				<tr>
+					<td><input type="button" name="boton7" class="numeros" value="7" onclick="anadir(7)"></td>
+					<td><input type="button" name="boton8" class="numeros" value="8" onclick="anadir(8)"></td>
+					<td><input type="button" name="boton9" class="numeros" value="9" onclick="anadir(9)"></td>
+					<td><input type="button" name="botonmulti" class="operaciones" value="x" onclick="operacion('x')"></td>
+				</tr>
+
+				<tr>
+					<td><input type="button" name="boton4" class="numeros" value="4" onclick="anadir(4)"></td>
+					<td><input type="button" name="boton5" class="numeros" value="5" onclick="anadir(5)"></td>
+					<td><input type="button" name="boton6" class="numeros" value="6" onclick="anadir(6)"></td>
+					<td><input type="button" name="botonresta" class="operaciones" value="-" onclick="operacion('-')"></td>
+				</tr>
+
+				<tr>
+					<td><input type="button" name="boton1" class="numeros" value="1" onclick="anadir(1)"></td>
+					<td><input type="button" name="boton2" class="numeros" value="2" onclick="anadir(2)"></td>
+					<td><input type="button" name="boton3" class="numeros" value="3" onclick="anadir(3)"></td>
+					<td><input type="button" name="botonresta" class="operaciones" value="+" onclick="operacion('+')"></td>
+				</tr>
+				<table id="ultima">
+					<tr>
+						<td><input type="button" name="boton0" class="numeroesp" value="0" onclick="anadir(0)"></td>
+						<td><input type="button" name="botonpunto" class="numerosx" value="."></td>
+						<td><input type="button" name="botonresultado" class="operacionesx" value="=" onclick="resultado()"></td>
+					</tr>
+				</table>
+			</table>
+			
+		</div>
+	</div>
+</body>
+</html>

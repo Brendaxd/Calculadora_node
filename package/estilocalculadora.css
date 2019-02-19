@@ -1,0 +1,114 @@
+.marco{
+	width: 300px;
+	height: 600px;
+	background-color: black;
+	margin: 0 auto;
+	margin-top: 100px;
+	text-align: center;
+}
+
+.especiales{
+	width: 65px;
+	height: 65px;
+	border-radius: 100px;
+	border: none;
+	background-color: gray;
+	text-align: center;
+	font-size: 20px;
+
+}
+
+.operaciones{
+	width: 65px;
+	height: 65px;
+	border-radius: 100px;
+	border: none;
+	background-color: orange;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+
+}
+
+.numeros{
+	width: 65px;
+	height: 65px;
+	border-radius: 100px;
+	border: none;
+	background-color: #3A3A3A;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+
+}
+
+.operacionesx{
+	width: 65px;
+	height: 65px;
+	border-radius: 100px;
+	margin-left: 5px;
+	border: none;
+	background-color: orange;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+
+}
+
+.numerosx{
+	width: 65px;
+	height: 65px;
+	margin-left: 5px;
+	border-radius: 100px;
+	border: none;
+	background-color: #3A3A3A;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+
+}
+
+tr{
+	width: 300px;
+	height: 100px;
+}
+
+.numeroesp{
+	width: 140px;
+	height: 65px;
+	border-radius: 100px;
+	margin-left: 3px;
+	border: none;
+	background-color: #3A3A3A;
+	text-align: center;
+	font-size: 20px;
+	color: white;
+
+}
+
+
+#pantalla{
+	width: 300px;
+	height: 100px;
+}
+
+#calcu{
+	width: 300px;
+	height: 400px;
+	text-align: center;
+}
+
+#botones{
+	width: 300px;
+	height: 400px;
+}
+
+#caja{
+	width: 290px;
+	height: 100px;
+	border: none;
+	color: white;
+	background-color: black;
+	font-size: 30px;
+	text-align: right;
+}
